@@ -14,7 +14,7 @@ import numpy as np
 
 def reshape(x, coord):
     """
-      (b, h, w, 2*c)  -> (b*c, w, h, 2)
+      (b, h, w, 2*c)  -> (b*c, h, w, 2)
       (b, h, w, c) -> (b*c, h, w)
     
       x: (b, h, w, c) 
